@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/see_events"
+        android:color="@color/tab_item_color"
+        android:icon="@drawable/list"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:title="View" />
+    <item
+        android:id="@+id/create_events"
+        android:color="@color/tab_item_color"
+        android:icon="@android:drawable/ic_input_add"
+        android:orderInCategory="20"
+        app:showAsAction="always"
+        android:title="New" />
+    <item
+        android:id="@+id/map"
+        android:color="@color/tab_item_color"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:orderInCategory="20"
+        app:showAsAction="always"
+        android:title="Map" />
+    <item
+        android:id="@+id/profile"
+        android:color="@color/tab_item_color"
+        android:icon="@drawable/mprofile"
+        android:orderInCategory="30"
+        app:showAsAction="always"
+        android:title="Profile" />
+</menu>
